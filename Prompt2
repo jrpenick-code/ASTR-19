@@ -1,0 +1,17 @@
+a = 2.5
+b = 2.25
+sum_result = a + b
+print("Sum:", sum_result)
+print("Data type:", type(sum_result))
+
+x = 10
+y = 5
+difference_result = x - y
+print("\nDifference:", difference_result)
+print("Data type:", type(difference_result))
+
+m = 2.5
+n = 10
+product_result = m * n
+print("\nProduct:", product_result)
+print("Data type:", type(product_result))
