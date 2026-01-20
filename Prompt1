@@ -1,0 +1,9 @@
+# Print full name
+print("Julia Penick")
+
+# Print preferred pronouns 
+print("Preferred Pronouns: she/her")  # change or remove if you want
+
+# Print two sentences about favorite movie and favorite food
+print("My favorite movie is The Perks of Being a Wallflower because I love the main characters way of narrating")
+print("My favorite food is steak since it always satisfies my hunger")
