@@ -1,0 +1,37 @@
+class Dolphin:
+    def __init__(self):
+        self.characteristics = {
+            "arm_length": 0.0,
+            "leg_length": 0.0,
+            "number_of_eyes": 2,
+            "has_tail": True,
+            "is_furry": False
+        }
+
+    def describe(self):
+        print("Dolphin Physical Characteristics:")
+        for key in sorted(self.characteristics):
+            print(f"{key}: {self.characteristics[key]}")
+
+    def add_characteristic(self, key, value):
+        self.characteristics[key] = value
+
+    def remove_characteristic(self, key):
+        if key in self.characteristics:
+            del self.characteristics[key]
+
+
+def main():
+    dolphin = Dolphin()
+
+    # dictionary operations are still used, just not printed
+    dolphin.add_characteristic("fin_length", 1.5)
+    dolphin.remove_characteristic("arm_length")
+
+    dolphin_copy = dolphin.characteristics.copy()
+
+    dolphin.describe()
+
+
+main()
+
